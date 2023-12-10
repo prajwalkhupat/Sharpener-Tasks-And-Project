@@ -1,0 +1,44 @@
+.submit-form {
+  border: 5px solid rgb(96, 192, 233);
+  border-radius: 1rem;
+  max-width: 50%;
+  width: 40rem;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.label-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+label {
+  margin: 10px;
+  align-items: left;
+  font-size: large;
+}
+
+input,
+select {
+  border: 2px solid rgb(16, 167, 231);
+  border-radius: 0.5rem;
+  width: 60%;
+  padding: 8px;
+}
+
+.submit-button {
+  color: rgb(34, 20, 20);
+  border: 2px solid rgb(84, 175, 240);
+  border-radius: 0.5rem;
+  background-color: rgb(238, 204, 124);
+  width: 10rem;
+  padding: 0.5rem;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: larger;
+}

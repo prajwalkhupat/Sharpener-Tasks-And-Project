@@ -1,0 +1,41 @@
+.orders {
+  border: 5px solid rgb(194, 118, 224);
+  border-radius: 1rem;
+  max-width: 50%;
+  width: 40rem;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 0 auto;
+  font-size: xx-large;
+}
+
+h3 {
+  background-color: rgb(212, 212, 212);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+
+}
+
+li {
+  list-style: none;
+  margin: auto 1rem;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+button {
+  color: rgb(26, 19, 19);
+  border: 3px solid rgb(236, 240, 12);
+  border-radius: 0.5rem;
+  background-color: rgb(182, 124, 224);
+  width: 9rem;
+  padding: 0.5rem;
+  margin: 5px;
+  font-weight: bold;
+  font-size: medium;
+}
