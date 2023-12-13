@@ -9,7 +9,7 @@ const ContactUs = () => {
 
   async function addContactUsHandler(contact) {
     const response = await fetch(
-      "https://react-submit-form-288ab-default-rtdb.firebaseio.com/contact-us.json",
+      "https://react-ecommerce-website-6bd06-default-rtdb.firebaseio.com/contact-us.json",
       {
         method: "POST",
         body: JSON.stringify(contact),
